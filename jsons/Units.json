@@ -1,17 +1,129 @@
 [
+	{"name": "Gurkha Scouts",
+	"unitType": "Scout",
+	"movement": 3,
+	"strength": 12,
+	"cost": 50,
+	"obsoleteTech": "Steam Power",
+	"upgradesTo": "Rifleman",
+	"uniques": [
+	    "May upgrade to [Archer] through ruins-like effects",
+	    "Never appears as a Barbarian unit"
+	],
+	"promotions": ["Ignore terrain cost"],
+	"attackSound": "nonmetalhit",
+	"civilopediaText": [
+	    {
+	        "text": "Highly skilled scouts, adept in mountainous terrains and wilderness."
+	    }
+	]
+	},
+
+	{"name": "Gurkha Warriors",
+	"unitType": "Sword",
+	"movement": 2,
+	"strength": 16,
+	"cost": 60,
+	"obsoleteTech": "Iron Working",
+	"upgradesTo": "Swordsman",
+	"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+	"attackSound": "nonmetalhit",
+	"promotions": ["Logistics", "Accuracy I"],
+	"civilopediaText": [
+	    {
+	        "text": "Elite fighters, skilled and renowned for their bravery."
+	    }
+	]
+	},
+	
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+	"name": "Gurkha Archers",
+	"unitType": "Archery",
+	"movement": 2,
+	"strength": 8,
+	"rangedStrength": 10,
+	"cost": 50,
+	"requiredTech": "Archery",
+	"obsoleteTech": "Construction",
+	"upgradesTo": "Composite Bowman",
+	"attackSound": "arrow",
+	"civilopediaText": [
+	    {
+	        "text": "Highly trained archers known for their precision and accuracy."
+	    }
+	]
+
+	},
+
+	{
+	"name": "Nepali Warboat",
+	"unitType": "Melee Water",
+	"movement": 4,
+	"strength": 12,
+	"cost": 50,
+	"requiredTech": "Sailing",
+	"uniques": [
+	    "Cannot enter ocean tiles",
+	    "Can move after attacking",
+	    "[-33]% Strength <vs cities> <when attacking>"
+	],
+	"upgradesTo": "Gurkha Warship",
+	"obsoleteTech": "Astronomy",
+	"attackSound": "nonmetalhit",
+	"civilopediaText": [
+	    {
+	        "text": "A specialized warboat, crafted for swift movement and close combat on water."
+	    }
+	]
+
+	},
+
+	{
+	"name": "Gurkha Skirmishers",
+	"unitType": "Mounted Ranged",
+	"movement": 4,
+	"strength": 8,
+	"rangedStrength": 12,
+	"cost": 60,
+	"requiredTech": "The Wheel",
+	"requiredResource": "Horses",
+	"upgradesTo": "Gurkha Cavalry",
+	"obsoleteTech": "Chivalry",
+	"uniques": [
+	   // "Adaptability to various terrains",
+	  //  "Enhanced maneuverability"
+	],
+	"attackSound": "arrow",
+	"civilopediaText": [
+	    {
+	        "text": "Highly skilled skirmishers known for their mobility and precise ranged attacks."
+	    }
+	]
+
+	},
+
+	{
+
+	"name": "Gurkha Phalanx",
+	"unitType": "Sword",
+	"movement": 2,
+	"strength": 14,
+	"cost": 60,
+	"requiredTech": "Bronze Working",
+	"obsoleteTech": "Civil Service",
+	"upgradesTo": "Gurkha Pikemen",
+	"uniques": [
+	    "[+50]% Strength <vs [Mounted] units>",
+	    "Tactical defense bonuses"
+	],
+	"attackSound": "metalhit",
+	"civilopediaText": [
+	    {
+	        "text": "Formidable in combat, Gurkha Phalanx units display exceptional prowess against mounted opponents."
+	    }
+	]
+
+	},
+	
+
 ]
