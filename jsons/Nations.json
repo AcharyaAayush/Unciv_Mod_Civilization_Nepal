@@ -1,38 +1,58 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Nepal",
+		"leaderName": "King Prithvi Narayan Shah",
+		"adjective": ["Himalayan"],
+		"startBias": ["Hills"],
+		"preferredVictoryType": "Cultural",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"startIntroPart1": "Welcome to the land of the Himalayas!",
+		"startIntroPart2": "Nepal, nestled in the lap of the Himalayas, where culture and history converge to tell tales of ancient traditions and spirituality.",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"declaringWar": "Beware! The brave Gurkhas shall defend their homeland!",
+		"attacked": "Your actions will not go unanswered!",
+		"defeated": "The bravery of Nepal cannot be suppressed for long. We shall rise again.",
+		"introduction": "As a resilient and peace-loving civilization, we seek harmony and coexistence with all.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"neutralHello": "Greetings! How are you?",
+		"neutralLetsHearIt": ["Please, share your thoughts.","We are eager to hear from you.","Speak, we're listening."],
+		"neutralNo": ["Regrettably, we must decline.","Apologies, but we cannot agree.","That is not possible."],
+		"neutralYes": ["Certainly, that sounds reasonable.","Yes, let us move forward together.","That's a welcome idea."],
+
+		"hateHello": "What is the purpose of your approach?",
+		"hateLetsHearIt": ["Out with it!","Speak your mind.","What do you wish to say?"],
+		"hateNo": ["Absolutely not!","We vehemently disagree.","That goes against our principles."],
+		"hateYes": ["Understood, we shall consider it.","Very well, if necessary.","We reluctantly agree."],
+
+		"afterPeace": "Peace has been restored; let us rebuild what was lost.",
+		"tradeRequest": "Let us engage in a mutually beneficial trade for prosperity."
+
+		"outerColor": [0,56,168],
+		"innerColor": [255,196,0],
+		"unique": "NEPALESE_HARMONY",
+
+		"cities": [
+   		    "Kathmandu",
+		    "Pokhara",
+		    "Bhaktapur",
+		    "Patan",
+		    "Lalitpur",
+		    "Biratnagar",
+		    "Nepalgunj",
+		    "Dharan",
+		    "Birgunj",
+		    "Butwal",
+		    "Hetauda",
+		    "Janakpur",
+		    "Dhangadhi",
+		    "Bharatpur",
+		    "Tamghas",
+		    "Tansen",
+		    "Itahari",
+		    "Illam",
+		    "Damak",
+		    "Mahendranagar"
+]
+
 	}
 ]
