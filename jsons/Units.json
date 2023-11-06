@@ -1,4 +1,5 @@
-[
+{
+	[
 	{"name": "Gurkha Scouts",
 	"unitType": "Scout",
 	"movement": 3,
