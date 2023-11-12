@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Expand Coast",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Flood plains"],
+    "turnsToBuild": 10,
+    "techRequired": "Navigation",
+    "uniques": [
+        "Converts the tile to a Coast",
+        "Can only be built on tiles adjacent to existing Coast or Ocean tiles"
+    ],
+}
+]
